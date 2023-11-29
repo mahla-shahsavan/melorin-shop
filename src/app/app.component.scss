@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-popup {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  
+  
+  
+}
+
+
+.search-popup.active .form-group .submit-btn {
+  position: absolute;
+  right:0;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+.search-popup .form-group .submit-btn {
+  position: absolute;
+  top: 0;
+  left:0;
+  width:58px;
+  height: 44px;
+  background: rgba(188, 188, 192, 0.551);
+  border: none;
+  color:rgb(70, 68, 68);
+  font-size: 25px;
+  /* border-radius: 30px 0 0 30px; */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+  border-radius: 6px;
+}
+
+.search-popup .form-group .submit-btn i{
+  font-size: 21px;
+}
+.search-popup .form-group input{
+  padding:8px 15px;
+}
+.icon-bar{
+  color:rgb(70, 68, 68);
+  font-size: 25px;
+  position: absolute;
+  top:32px;
+  left: 72%;
+
+  
+
+}
+.icon-bar i{
+  padding: 0px 10px;
+}
+.collapse ul{
+  margin-top: 40px;
+  font-size: 15px;
+}
+.button-bar{
+  position: absolute;
+  left:18%;
+  top:30px;
+}
